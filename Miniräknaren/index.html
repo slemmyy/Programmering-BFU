@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniräknare</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./script.js"></script> 
+</head>
+<body>
+    <main>
+        <h1>Miniräknare</h1>
+        <section class="calculator">
+            <button class="bsqrt op" disabled title="Square root">√x</button>
+            <button class="bsq op" disabled title="Squared">x^2</button>
+            <button class="bclear op">Clear</button>
+            <button class="badd op">+</button>
+            <button class="b7 digit">7</button>
+            <button class="b8 digit">8</button>
+            <button class="b9 digit">9</button>
+            <button class="bsub op">-</button>
+            <button class="b4 digit">4</button>
+            <button class="b5 digit">5</button>
+            <button class="b6 digit">6</button>
+            <button class="bmul op">*</button>
+            <button class="b1 digit">1</button>
+            <button class="b2 digit">2</button>
+            <button class="b3 digit">3</button>
+            <button class="bdiv op">/</button>
+            <button class="b0 digit">0</button>
+            <button class="bdec op">.</button>
+            <button class="beq op">=</button>
+        </section>
+        <section class="output">
+            <p>
+                <span>Resultat:</span>
+                <code id="result">0</code>
+            </p>
+            <p>
+                <span>Du valde:</span>
+                <code id="input">0</code>
+            </p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.calculator {
+    box-shadow: 0 0 0.1em #384B51;
+    background-color: #aacdfcd4;
+    border-radius: 0.2em;
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 5em);
+    justify-content: center;
+    gap: 0.75em;
+}
+
+button {
+    padding: 0.5em 0;
+    border-radius: 0.3em;
+    border: 1px solid rgb(0, 55, 255);
+    background-color: #ffbffba8;
+    font-family: Consolas, Courier New, monospace;
+    font-size: 125%;
+    position: relative; /* Lägg till relativ positionering för att stjärnan ska placeras inuti knappen */
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.3em #f5c5fa;
+}
+
+code {
+    background-color: #ffbffba8;
+    border: 1px solid rgb(0, 55, 255);
+    border-radius: 0.3em;
+    padding: 0.4em 1em;
+    font-size: 110%;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    font-family: Arial, sans-serif;
+    background-image: url('/stars.gif')
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container, .container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gold;
+    border-radius: 5%;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    margin: 10px;
+    width: 300px;
+    background-image: url('/stars.gif');
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #444;
+    color: gold;
+    border: 1px solid gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3c3c3c;
+}
+
+.display-info {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gold;
+    width: 100%;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    background-color: #444;
+    color: gold;
+    width: 100%;
+}
